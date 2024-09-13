@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // For React 17 and newer
+    // or
+    "jsx": "react", // For React 16 and earlier
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es5"
+    // other compiler options
+  },
+  "include": ["src"]
+}
